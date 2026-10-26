@@ -81,9 +81,49 @@
 				</ul>
 			</div>
 			<div class="col-md-9 lower-body">
-				<div class="proto-note"><i class="fa-solid fa-circle-info"></i>このページは準備中です。大阪つくば開成高等学校と同じ内容で、順次作成しています。</div>
+				<div class="proto-note"><i class="fa-solid fa-circle-info"></i>このフォームは確認用のため、送信されません。受け付けの方法（メール・フォーム）は確認中です。</div>
 				<h3 class="lower-title">資料請求・お問い合わせ</h3>
-				<p>ただいま準備中です。</p>
+				<p class="lower-label">お気軽にお問い合わせください</p>
+				<p>学校案内の資料請求や、入学・学校生活についてのご質問は、こちらのフォームからお送りください。</p>
+				<form class="form-mock">
+					<div class="form-group">
+						<label for="c-name">お名前<span class="req">必須</span></label>
+						<input type="text" class="form-control" id="c-name" placeholder="例）熊本 花子">
+					</div>
+					<div class="form-group">
+						<label for="c-kana">ふりがな</label>
+						<input type="text" class="form-control" id="c-kana" placeholder="例）くまもと はなこ">
+					</div>
+					<div class="form-group">
+						<label>ご本人との関係</label>
+						<div>
+							<label class="radio-inline"><input type="radio" name="c-rel" checked> 生徒本人</label>
+							<label class="radio-inline"><input type="radio" name="c-rel"> 保護者</label>
+							<label class="radio-inline"><input type="radio" name="c-rel"> その他</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="c-mail">メールアドレス<span class="req">必須</span></label>
+						<input type="email" class="form-control" id="c-mail" placeholder="例）example@example.com">
+					</div>
+					<div class="form-group">
+						<label for="c-addr">資料の送付先（ご住所）</label>
+						<input type="text" class="form-control" id="c-addr" placeholder="例）熊本県熊本市中央区〇〇">
+					</div>
+					<div class="form-group">
+						<label>お問い合わせの内容</label>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" checked> 資料請求</label>
+							<label class="checkbox-inline"><input type="checkbox"> 見学・相談</label>
+							<label class="checkbox-inline"><input type="checkbox"> その他</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="c-msg">ご質問など</label>
+						<textarea class="form-control" id="c-msg" rows="5"></textarea>
+					</div>
+					<p class="text-center"><button type="submit" class="btn-submit">内容を確認して送信（確認用）</button></p>
+				</form>
 
 			</div>
 		</div>

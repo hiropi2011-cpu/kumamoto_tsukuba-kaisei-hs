@@ -81,9 +81,51 @@
 				</ul>
 			</div>
 			<div class="col-md-9 lower-body">
-				<div class="proto-note"><i class="fa-solid fa-circle-info"></i>このページは準備中です。大阪つくば開成高等学校と同じ内容で、順次作成しています。</div>
-				<h3 class="lower-title">見学予約</h3>
-				<p>ただいま準備中です。</p>
+				<div class="proto-note"><i class="fa-solid fa-circle-info"></i>このフォームは確認用のため、送信されません。受け付けの方法（メール・フォーム）は確認中です。</div>
+				<h3 class="lower-title">見学会・相談会のご予約</h3>
+				<p class="lower-label">見学会・相談会 随時開催中</p>
+				<p>校舎の見学や、学校生活・入学についてのご相談を随時受け付けています。ご希望の日時をお知らせください。</p>
+				<form class="form-mock">
+					<div class="form-group">
+						<label for="r-name">お名前<span class="req">必須</span></label>
+						<input type="text" class="form-control" id="r-name" placeholder="例）熊本 花子">
+					</div>
+					<div class="form-group">
+						<label for="r-mail">メールアドレス<span class="req">必須</span></label>
+						<input type="email" class="form-control" id="r-mail" placeholder="例）example@example.com">
+					</div>
+					<div class="form-group">
+						<label for="r-num">参加人数</label>
+						<select class="form-control" id="r-num">
+							<option>1名</option><option>2名</option><option>3名</option><option>4名以上</option>
+						</select>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<label for="r-date1">第1希望日<span class="req">必須</span></label>
+							<input type="date" class="form-control" id="r-date1">
+						</div>
+						<div class="col-sm-6 form-group">
+							<label for="r-time1">時間帯</label>
+							<select class="form-control" id="r-time1"><option>午前</option><option>午後</option><option>夕方</option></select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<label for="r-date2">第2希望日</label>
+							<input type="date" class="form-control" id="r-date2">
+						</div>
+						<div class="col-sm-6 form-group">
+							<label for="r-time2">時間帯</label>
+							<select class="form-control" id="r-time2"><option>午前</option><option>午後</option><option>夕方</option></select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="r-msg">ご相談になりたいこと</label>
+						<textarea class="form-control" id="r-msg" rows="5"></textarea>
+					</div>
+					<p class="text-center"><button type="submit" class="btn-submit">予約内容を送信（確認用）</button></p>
+				</form>
 
 			</div>
 		</div>
